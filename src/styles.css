@@ -1,0 +1,73 @@
+body {
+  margin: 0;
+  padding: 0; 
+  box-sizing: border-box; 
+}
+
+nav {
+  background-color: rgb(8, 41, 81);
+  padding: 20px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.profile-images img {
+  height: 40px;
+  border-radius: 50%; 
+  margin-right: 300px;
+  object-fit: cover; 
+}
+
+
+nav .navlink.home {
+  margin-right: 50px; 
+}
+
+nav a {
+  text-decoration: none;
+  margin: 0 5px; 
+  font-size: 15px; 
+  color: white; 
+}
+
+nav a.active {
+  font-weight: bold; 
+}
+
+nav a.active[href="/python"] {
+  color: #1e6ded; 
+}
+
+nav a.active[href="/html"] {
+  color: #ff6200; 
+}
+
+nav a.active[href="/javascript"] {
+  color: yellow; 
+}
+
+nav a.active[href="/css"] {
+  color: #5707c7; 
+}
+
+nav a.active[href="/php"] {
+  color: #4700ab; 
+}
+
+nav a.active[href="/kotlin"] {
+  color: #BA55D3; 
+}
+
+nav a.active[href="/java"] {
+  color: #a5682a; 
+}
+
+nav a.active[href="/dart"] {
+  color: #01f9e0a3; 
+}
