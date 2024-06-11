@@ -31,6 +31,9 @@ const Index = () => {
             <a href="https://github.com/chrismhz" target="_blank" rel="noopener noreferrer">
               <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
             </a>
+            <a href="https://wa.me/5528517627" target="_blank" rel="noopener noreferrer">
+              <img src="https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" alt="WhatsApp" />
+            </a>
           </div>
         </div>
       </div>
